@@ -1,0 +1,19 @@
+.table {
+  width: 90%;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+h3 {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#disclaimer {
+  width: 85%;
+  font-size: 12px;
+}

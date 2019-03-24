@@ -1,0 +1,112 @@
+nav.navbar.navbar-default {
+  margin-bottom: 10px;
+  background-color: #303030;
+  font-family: 'BrandonGrotesqueWeb-Black';
+}
+
+.navbar-brand {
+  font-family: 'BrandonGrotesqueWeb-Black';
+  font-style: bold;
+  font-size: 20px;
+}
+
+#logo {
+  width: 45%;
+}
+
+.navbar-custom {
+  box-shadow: 0 0px 20px 0 black;
+  border-bottom: 1px solid black;
+  background-color: #303030;
+  font-family: 'BrandonGrotesqueWeb-Black';
+}
+
+
+
+  #toggle {
+    width: 10%;
+    cursor: pointer;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    /* opacity: .85; */
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'BrandonGrotesqueWeb-Black';
+    /* font-family: 'Old Standard TT', serif; */
+    color: white;
+    /* text-shadow: 1px 1px 2px white; */
+    display: block;
+    transition: 0.3s;
+    /* font-weight: bold; */
+    text-align: left;
+    font-weight: normal;
+  }
+
+  h3 {
+    color: white;
+    font-family: 'BrandonGrotesqueWeb-Black';    /* font-family: 'Old Standard TT', serif; */ 
+  }
+
+  #line {
+    color: white;
+  }
+
+  .sidenav a:hover {
+    font-weight: bold;
+  }
+
+  .sidenav .closebtn:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  @media (min-width: 1000px) {
+
+      .nav-wide {
+        display: flex;
+      }
+  
+      .sidenav-div {
+        display: none;
+      }
+    }
+  
+
+  @media (max-width: 1000px) {
+
+    .nav-wide {
+      display: none;
+      }
+
+
+   .sidenav-div {
+      display: block;
+    }
+  }

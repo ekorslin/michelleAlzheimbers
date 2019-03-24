@@ -1,0 +1,207 @@
+.footer-custom {
+  height: 40px;
+  padding-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid white;
+  background-color: #303030;
+}
+
+#il {
+  width: 25%;
+  margin-left: 0;
+}
+
+p {
+  text-align: left;
+  font-size: 13px;
+
+}
+
+.footer-headline {
+  text-align: center;
+}
+
+  #up {
+    width: 12%;
+    z-index: 10;
+    margin-top: -25px;
+    cursor: pointer;
+    opacity: 1.0;
+  }
+
+  #down {
+    width: 12%;
+    z-index: 40;
+    margin-top: -25px;
+    cursor: pointer;
+    position: fixed;
+    left: 45%;
+  }
+
+  #down2, #down3, #down4, #down5 {
+    width: 12%;
+    z-index: 40;
+    margin-top: -25px;
+    cursor: pointer;
+    position: fixed;
+    left: 45%;
+  }
+
+
+  .sidenav {
+    height: 0;
+    width: 90%;
+    position: fixed;
+    z-index: 1;
+    opacity: .9;
+    /* top: 10%; */
+    bottom: 0%;
+    left: 5%;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.4s; 
+    padding-top: 0;
+    border: 1px solid black;
+    border-bottom: 0px;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'BrandonGrotesqueWeb-Black';
+    /* font-family: 'Old Standard TT', serif; */
+    color: black;
+    /* text-shadow: 1px 1px 2px white; */
+    /* display: block; */
+    transition: 0.3s;
+    /* font-weight: bold; */
+    text-align: left;
+    padding-left: 40px;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+  .sidenav-order, .sidenav-order-specific, .sidenav-order-snacks, .sidenav-order-balls-and-tees {
+    height: 0;
+    width: 90%;
+    position: fixed;
+    z-index: 1;
+    opacity: .9;
+    /* top: 10%; */
+    bottom: 0%;
+    left: 5%;
+    background-color: white;
+    overflow-y: hidden;
+    transition: 0.4s; 
+    padding-top: 0;
+    border: 1px solid black;
+    border-bottom: 0px;
+  }
+
+  .sidenav-order a, .sidenav-order-specific a, .sidenav-order-snacks a, .sidenav-order-balls-and-tees a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: 'BrandonGrotesqueWeb-Black';
+    color: black;
+    transition: 0.3s;
+    text-align: left;
+    font-weight: normal;
+    cursor: pointer;
+  }
+
+
+.logo {
+  width: 35%;
+  bottom: 0;
+}
+
+#miller-pic {
+  width: 50%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#snacks {
+  width: 65%;
+  cursor: pointer;
+}
+
+#balls {
+  width: 50%;
+  cursor: pointer;
+}
+
+.bottom-right {
+  position: absolute;
+  top: 65%;
+  text-align: center;
+  color: black;
+  font-family: 'BrandonGrotesqueWeb-Black';
+  text-shadow: 0;
+  background-color: white;
+  width: 65%;
+  left: 15%;
+  height: 30px;
+  opacity: 1;
+  padding-top: 8px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.snacks {
+  width: 70%;
+  left: 14%;
+  top: 60%;
+}
+
+.tees {
+  width: 54%;
+  left: 22%;
+}
+
+.container-order{
+  position: relative;
+  text-align: center;
+  border: 1px solid white;
+}
+
+#miller-beverage {
+  width: 40%;
+}
+
+#soda-beverage {
+  width: 40%;
+}
+
+#water-beverage {
+  width: 40%;
+}
+
+#gatorade-beverage {
+  width: 40%;
+}
+
+#bar-beverage {
+  width: 40%;
+}
+
+td {
+  font-family: 'BrandonGrotesqueWeb-Black';
+  text-align: left;
+  cursor: pointer;
+}
+
+.beverage-image {
+  width: 40%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#swipe-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 4px;
+}
